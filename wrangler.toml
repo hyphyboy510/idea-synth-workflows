@@ -1,0 +1,11 @@
+name = "idea-synth-workflows"
+main = "src/index.ts"
+compatibility_date = "2026-10-01"
+
+[[workflows]]
+name = "idea-synthesis"
+binding = "IDEA_WORKFLOW"
+class_name = "IdeaSynthesisWorkflow"
+
+[vars]
+TELEMETRY_ENABLED = "true"
